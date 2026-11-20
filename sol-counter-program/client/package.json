@@ -1,0 +1,18 @@
+{
+  "name": "sol-counter-client",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TypeScript client + tests for sol-counter-program",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "borsh": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.4.0"
+  }
+}
